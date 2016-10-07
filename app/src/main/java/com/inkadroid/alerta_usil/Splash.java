@@ -3,6 +3,7 @@ package com.inkadroid.alerta_usil;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Toast;
 
 import java.util.Timer;
 import java.util.TimerTask;
@@ -14,6 +15,8 @@ public class Splash extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         getSupportActionBar().hide();
         setContentView(R.layout.activity_splash);
+        Toast.makeText(getApplication(),"HECHO POR:JSNV578",Toast.LENGTH_LONG).show();
+
     }
 
     @Override
